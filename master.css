@@ -102,13 +102,10 @@ button[type^='green']{
 }
 
 .background-img{
-  position: absolute;
-  right: -40px;
-  top: 75px;
-  background-size: contain;
+  background-position: 100%, 100%;
+  background-size: 60%;
   background-repeat: no-repeat;
   width: 70%;
-  height: 700px;
   background-image: url("img/background-header.png");
 }
 
