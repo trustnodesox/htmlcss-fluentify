@@ -129,3 +129,13 @@ button[type^='green']{
   color: grey;
   font-weight: bold;
 }
+
+.row-1{
+  margin: 0 10% auto;
+}
+
+.col-1, .col-2, .col-3{
+  float: left;
+  width: 25%;
+  padding: 50px;
+}
