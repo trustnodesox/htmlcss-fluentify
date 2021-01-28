@@ -8,22 +8,19 @@ body{
   font-family: 'roboto', sans-serif;
 }
 
-
-.container:after{
-  content:'';
-  clear: both;
-  display: table;
-
+.container{
+  margin: 0 auto;
 }
+
 
 .bg-blue{
   background-color: #000080;
 }
 
 header{
-  margin: 0 10% auto;
   background-color: #000080;
-
+  padding-left: 10%;
+  height: 100px;
 }
 
 .logo{
@@ -61,8 +58,6 @@ nav ul li{
  margin-left: 6px;
 }
 
-
-
 a.btn{
  border: 2px solid white;
  padding-right: 13px;
@@ -84,29 +79,27 @@ button[type^='green']{
 }
 
 .jumbo{
-  margin: 100px 10% auto;
-  height: 300px;
+  padding-left: 10%;
+  padding-top: 5%;
+  height: 360px;
+  background-position: 110%, 110%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-image: url("img/background-header.png");
+
 }
 
 .jumbo-text{
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   color: white;
-  width:42%;
+  width:45%;
   display: inline-block;
 }
 
 .jumbo-text button{
   margin-top: 20px;
   padding: 20px;
-}
-
-.background-img{
-  background-position: 100%, 100%;
-  background-size: 60%;
-  background-repeat: no-repeat;
-  width: 70%;
-  background-image: url("img/background-header.png");
 }
 
 .bg-grey{
@@ -127,12 +120,20 @@ button[type^='green']{
   font-weight: bold;
 }
 
+.row-1:after{
+  content:'';
+  clear: both;
+  display: table;
+
+}
+
 .row-1{
-  margin: 0 10% auto;
+ margin: 0 auto;
 }
 
 .col-1, .col-2, .col-3{
   float: left;
   width: 25%;
-  padding: 50px;
+  padding-top: 50px;
+  padding-left: 150px;
 }
