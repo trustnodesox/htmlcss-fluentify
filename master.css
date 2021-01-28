@@ -19,8 +19,8 @@ body{
 
 header{
   background-color: #000080;
-  padding-left: 10%;
-  height: 100px;
+  text-align: center;
+
 }
 
 .logo{
@@ -79,11 +79,11 @@ button[type^='green']{
 }
 
 .jumbo{
-  padding-left: 10%;
-  padding-top: 5%;
-  height: 360px;
-  background-position: 110%, 110%;
-  background-size: 70%;
+  padding-left: 17%;
+  padding-top: 7%;
+  height: 382px;
+  background-position: 110% 20px;
+  background-size: 60%;
   background-repeat: no-repeat;
   background-image: url("img/background-header.png");
 
@@ -93,7 +93,7 @@ button[type^='green']{
   font-size: 20px;
   line-height: 1.5;
   color: white;
-  width:45%;
+  width: 38%;
   display: inline-block;
 }
 
@@ -128,12 +128,12 @@ button[type^='green']{
 }
 
 .row-1{
- margin: 0 auto;
+ margin: 0 10% auto;
 }
 
 .col-1, .col-2, .col-3{
   float: left;
   width: 25%;
   padding-top: 50px;
-  padding-left: 150px;
+  padding-left: 180px;
 }
