@@ -17,12 +17,12 @@ body{
 }
 
 .bg-blue{
-  background-color: blue;
+  background-color: #000080;
 }
 
 header{
   margin: 0 10% auto;
-  background-color: blue;
+  background-color: #000080;
 
 }
 
@@ -78,32 +78,54 @@ button[type^='green']{
   border: 0;
   color: white;
   font-family: 'roboto', sans-serif;
-  font-size: 10px;
+  font-size: 9px;
   text-transform: uppercase;
-  padding: 5px;
+  padding: 8px;
 }
 
 .jumbo{
   margin: 100px 10% auto;
+  height: 300px;
 }
 
-.text{
+.jumbo-text{
+  font-size: 18px;
   line-height: 1.5;
   color: white;
-  width:40%;
+  width:42%;
   display: inline-block;
 }
 
-.text button{
+.jumbo-text button{
   margin-top: 20px;
   padding: 20px;
 }
 
 .background-img{
-  float: right;
-  background-size: cover;
+  position: absolute;
+  right: -40px;
+  top: 75px;
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 40%;
+  width: 70%;
   height: 700px;
-  background-image: url("img/background-header.png")
+  background-image: url("img/background-header.png");
+}
+
+.bg-grey{
+  width: 100%;
+  height: 150px;
+  background-color: #DCDCDC;
+}
+
+.bg-text{
+  padding-top: 30px;
+  line-height: 2;
+  text-align: center;
+  vertical-align: center;
+}
+
+.bg-text p{
+  color: grey;
+  font-weight: bold;
 }
